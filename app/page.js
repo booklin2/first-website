@@ -36,7 +36,7 @@ export default function Home() {
               <div className="relative h-96 w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 {/* Front */}
                 <div className="absolute inset-0">
-                  <img src="/images/17.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-t-lg" />
+                  <img src="/image-list/17.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-t-lg" />
                   <h3 className="text-xl font-semibold mt-4 text-purple-300">自然風景攝影集</h3>
                 </div>
                 {/* Back */}
@@ -53,7 +53,7 @@ export default function Home() {
               <div className="relative h-96 w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 {/* Front */}
                 <div className="absolute inset-0">
-                  <img src="/images/25.jpg" alt="Project 2" className="w-full h-48 object-cover rounded-t-lg" />
+                  <img src="/image-list/25.jpg" alt="Project 2" className="w-full h-48 object-cover rounded-t-lg" />
                   <h3 className="text-xl font-semibold mt-4 text-purple-300">城市街景相簿</h3>
                 </div>
                 {/* Back */}
@@ -70,7 +70,7 @@ export default function Home() {
               <div className="relative h-96 w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 {/* Front */}
                 <div className="absolute inset-0">
-                  <img src="/images/28.jpg" alt="Project 3" className="w-full h-48 object-cover rounded-t-lg" />
+                  <img src="/image-list/28.jpg" alt="Project 3" className="w-full h-48 object-cover rounded-t-lg" />
                   <h3 className="text-xl font-semibold mt-4 text-purple-300">藝術攝影作品</h3>
                 </div>
                 {/* Back */}
