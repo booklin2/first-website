@@ -2,15 +2,16 @@ export default function About() {
   return (
     <>
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 right-0 bg-pink-500 text-white p-4 z-50">
+      <nav className="fixed top-0 left-0 right-0 bg-purple-500 text-white p-4 z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <a href="/" className="text-xl font-bold hover:text-pink-200">我的網站</a>
+          <div className="flex items-center space-x-6">
+            <a href="/" className="text-xl font-bold hover:text-purple-200">首頁</a>
+          </div>
           <div className="space-x-6">
-            <a href="/" className="hover:text-pink-200">首頁</a>
-            <a href="/about" className="hover:text-pink-200">關於本站</a>
-            <a href="/todo" className="hover:text-pink-200">待辦事項</a>
-            <a href="/chat-room" className="hover:text-pink-200">聊天室</a>
-            <a href="/contact" className="hover:text-pink-200">聯絡資訊</a>
+            <a href="/about" className="hover:text-purple-200">關於本站</a>
+            <a href="/todo" className="hover:text-purple-200">待辦事項</a>
+            <a href="/chat-room" className="hover:text-purple-200">聊天室</a>
+            <a href="/contact" className="hover:text-purple-200">聯絡資訊</a>
           </div>
         </div>
       </nav>
